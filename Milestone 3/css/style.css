@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #083b4b;
+}
+
+.ms_container {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.font {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    margin: 1rem .5rem; 
+}
