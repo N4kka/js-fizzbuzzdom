@@ -29,10 +29,21 @@ body {
 .box {
     width: 80px;
     height: 80px;
-    background-color: blueviolet;
+    background-color: #1289b2;
     line-height: 80px;
     text-align: center;
-    color: white;
-    border: 1px solid white;
+    color: black;
     margin: 1rem .5rem; 
+}
+
+.fizz {
+    background-color: #08d6a0;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
 }
