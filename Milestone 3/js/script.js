@@ -17,7 +17,7 @@ for (let i = 1; i <= 100; i++) {
     }
 
     // Output on HTML
-    rowWrapper.innerHTML += `<div class="box ${fizzOrBuzz}">${i, fizzOrBuzz}</div>`;
+    rowWrapper.innerHTML += `<div class="box ${fizzOrBuzz}">${fizzOrBuzz}</div>`;
     
-    console.log(i, fizzOrBuzz);
+    console.log(fizzOrBuzz);
 }
